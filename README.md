@@ -24,12 +24,8 @@ https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
 
 
 
-1. https://leetcode.com/problems/count-complete-tree-nodes/?envType=problem-list-v2&envId=binary-search
-- Very interesting problem where you need to apply binary search to find the total number of nodes 
 
-
-
-Leetcode questions with forming slots and greedy approach: 
+## Forming slots and greedy approach: 
 Task Scheduler - LeetCode
 767. Reorganize String
 1054. Distant Barcodes
@@ -40,12 +36,12 @@ Task Scheduler - LeetCode
 984. String Without AAA or BBB
 
 
-Leetcode with using Knapsack with binary search
+## Leetcode with using Knapsack with binary search
 
 https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/
 
 
-Monotonic stack questions:
+## Monotonic stack questions:
 
 https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/description/
 - 3 approaches:
@@ -73,7 +69,7 @@ https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/
 
 
 
-Good Graph questions
+## Graph questions
 
 https://leetcode.com/problems/is-graph-bipartite/description/
 
@@ -93,7 +89,7 @@ https://leetcode.com/problems/path-with-minimum-effort/description/
 
 
 
-Good Sliding window questions
+## Sliding window questions
 
 https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
 - Amazing question which deals with bit manipulation.
@@ -104,7 +100,11 @@ https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/descript
 
 
 
-Good Binary Search questions
+## Binary Search questions
+
+https://leetcode.com/problems/count-complete-tree-nodes/?envType=problem-list-v2&envId=binary-search
+- Very interesting problem where you need to apply binary search to find the total number of nodes 
+
 
 https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign
 - You need to make the strongest k workers take the easiest k tasks.
@@ -124,11 +124,11 @@ https://leetcode.com/problems/maximize-the-minimum-powered-city/description/
 
 
 
-Meet in the middle
+## Meet in the middle
 https://leetcode.com/problems/closest-subsequence-sum/
 
 
-Design
+## Design
 https://leetcode.com/problems/queue-reconstruction-by-height/
 
 
