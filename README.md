@@ -26,14 +26,14 @@ https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
 
 
 ## Forming slots and greedy approach: 
-Task Scheduler - LeetCode
-767. Reorganize String
-1054. Distant Barcodes
-1405. Longest Happy String
-1953. Maximum Number of Weeks for Which You Can Work
-2335. Minimum Amount of Time to Fill Cups
-358. Rearrange String k Distance Apart (premium)
-984. String Without AAA or BBB
+<li>Task Scheduler - LeetCode
+<li>767. Reorganize String
+<li>1054. Distant Barcodes
+<li>1405. Longest Happy String
+<li>1953. Maximum Number of Weeks for Which You Can Work
+<li>2335. Minimum Amount of Time to Fill Cups
+<li>358. Rearrange String k Distance Apart (premium)
+<li>984. String Without AAA or BBB
 
 
 ## Leetcode with using Knapsack with binary search
