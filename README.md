@@ -16,6 +16,7 @@
 | [Jump game 6](https://leetcode.com/problems/jump-game-vi) | `dp[i] = nums[i] + max(dp[j]), where j = [i+1, min(n-1,i+d)]` <br> - To get the max value we can store it in a monotonic decreasing queue when the largest number is not in a range of i, i.e. -> i - d > max_index remove that number. <br> - Also we need the maximum dp[j] value. So from the queue we remove dp values which are less than the max dp[j] value in that range. |
 | [Jump game 7](https://leetcode.com/problems/jump-game-vii) | To solve this we can do a bfs or use dp. <ul><li> DP: in range min to max. If there is a 0 present then we can easily reach that range. <br>i.e. `dp[I] = true, if in range (I-max) to (I-min)` there is a 0 which is present. <li> BFS: You can do a standard bfs here. For each position you would have already seen places till pos1 + max. So for the next position in the queue, we can start searching from `max(pos1 + max + 1, pos2 + min) to min(n-1, pos2 + max)` </ul> |
 | [Max absolute sum of subaaray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | - Find the max subarray and the min subarray sum <br> - Result would be the max of abs results of both subarray sums |
+| [Make all frequencies same](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal) | dp[index][canUsePrevChar] |
 
 
 
