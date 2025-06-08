@@ -17,6 +17,8 @@
 | [Jump game 7](https://leetcode.com/problems/jump-game-vii) | To solve this we can do a bfs or use dp. <ul><li> DP: in range min to max. If there is a 0 present then we can easily reach that range. <br>i.e. `dp[I] = true, if in range (I-max) to (I-min)` there is a 0 which is present. <li> BFS: You can do a standard bfs here. For each position you would have already seen places till pos1 + max. So for the next position in the queue, we can start searching from `max(pos1 + max + 1, pos2 + min) to min(n-1, pos2 + max)` </ul> |
 | [Max absolute sum of subaaray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | - Find the max subarray and the min subarray sum <br> - Result would be the max of abs results of both subarray sums |
 | [Make all frequencies same](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal) | dp[index][canUsePrevChar] |
+| [Maximise Sum of weights after edges removal](https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals)| Go to each node in dfs. Return {with_k, with_k_minus_1} for each node.  |
+| [Last stone weight 2](https://leetcode.com/problems/last-stone-weight-ii/description/)| When we merge the 2 stones left over stone is a - b, similarly when we merge 2 merged stones, it will be `(a-b) - (c-d)`. This can be changed to `(a+d) - (b+c)`. So we basically create 2 groups and merge them to reduce the score to be as close to 0 as possible. Therefore it is knapsack where we choose the elements in the first half such that its sum is at most `(total sum / 2)`. The last stone left would be `sum - 2 * s`|
 
 
 
