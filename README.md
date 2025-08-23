@@ -42,6 +42,12 @@
 |----------|-------------|
 |[Minimum time to revert string to original state](https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/description/)| We need to use KMP to find LPS of the string|
 
+## Graph questions
+| Question | Explanation |
+|----------|-------------|
+|[Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)|We do a multisource bfs since all the edges are of length 1. the state we store in a queue is {node, mask}. we also maintain a dist array, and only traverse a node again if the dist is lesser that the existing one|
+|[Second minimum time](https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/)|Very interesting problem which uses bfs and 2 Dist arrays to store the least and the second least distances. Node would be {val, freq}.|
+
 
 
 Algorithms and concepts:
@@ -104,10 +110,6 @@ What does it mean when a graph is bipartite
 2. we can split the nodes of the graph(vertex set of the graph) into 2 subsets sothat there is all the edges go from 1 subsetto the other subset.
 3. The graph should be bi-colourable.
 
-
-https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/
-
-- Very interesting problem which uses bfs and 2 Dist arrays to store the least and the second least distances.
 
 https://leetcode.com/problems/path-with-minimum-effort/description/
 - Interesting way to use modified djikstras
