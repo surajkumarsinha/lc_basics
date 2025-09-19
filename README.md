@@ -22,6 +22,7 @@
 |[Number of music playlists](https://leetcode.com/problems/number-of-music-playlists)|We find the reccurence relation here. For i (0 <= i <= goal) songs and j(0 <= j <= n), we can say that there are 2 cases. <br> <li> <b>Case 1 (New unique song added)</b>: `dp[i][j] = (n-(j-1)) * dp[i-1][j-1]` <br> Here we have (n - (j-1)) new songs left to choose from <br> <li> <b>Case 2 (Old song added)</b>: `dp[i][j] = (j-k) * dp[i-1][j]`<br> here since we need to choose old songs we have max j choices, but we cannot choose the last k songs, therefore (j - k) choices are there|
 |[Super egg drop](https://leetcode.com/problems/super-egg-drop)| the dp recurrence would be `dp[floor][egg] = 1 + min[for(f in 1 to floor) {max(dp[f-1][egg - 1], dp[floor - f][egg])}]` <br> we can also optimise the search for the minimum by using binary search. binary search can be used since if floors increase, the result for egg break outcome will be monotonically decreasing while if it does not break, the outcome for egg not breaking would monotonically increase hence we can apply binary search here|
 |[Soup Servings](https://leetcode.com/problems/soup-servings)|Since quantity is in 25ml increments, we can scale it down by dividing quantity with 25. Although we need to ensure that even if 1ml is mentioned, it will be considered as a soup serving. Therefore we add use the following: `N = (n + 24)/25`|
+|[Longest palindrome after substring concatenation 2](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/description/)|First reverse t and then find the longest palindrome length in both s and t starting at index till the end. Then we check for characters in s and t. If we find a matching substring in the 2 then result would be: `substr + max(palindLen[i], palindLen[j]) + rev_substr`. Great question overall|
 
 
 ## Tree DP / reroot DP
@@ -46,7 +47,9 @@
 | Question | Explanation |
 |----------|-------------|
 |[Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)|We do a multisource bfs since all the edges are of length 1. the state we store in a queue is {node, mask}. we also maintain a dist array, and only traverse a node again if the dist is lesser that the existing one|
-|[Second minimum time](https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/)|Very interesting problem which uses bfs and 2 Dist arrays to store the least and the second least distances. Node would be {val, freq}.|
+|[Second minimum time](https://leetcode.com/problems/second-minimum-time-to-reach-destination/description/)|Very interesting problem which uses bfs and 2 Dist arrays to 
+store the least and the second least distances. Node would be {val, freq}.|
+|[Shortest cycle in a graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)|Apply bfs on every root and find the cycle. There is a cycle if for a node and a nbr, the parent of the nbr is not the node. The total length is 1 + dist[node] + dist[nbr]|
 
 
 
@@ -114,6 +117,8 @@ What does it mean when a graph is bipartite
 https://leetcode.com/problems/path-with-minimum-effort/description/
 - Interesting way to use modified djikstras
 
+Binary lifting
+https://leetcode.com/discuss/post/4299594/binary-lifting-technique-a-beginners-gui-k7p0/
 
 
 ## Sliding window questions
