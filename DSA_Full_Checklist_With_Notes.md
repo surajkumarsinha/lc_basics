@@ -5,8 +5,8 @@
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
 | 1 | Container With Most Water (11) | [ ] | |
-| 2 | 3Sum (15) | [ ] | |
-| 3 | 3Sum Closest (16) | [ ] | |
+| 2 | 3Sum (15) | :heavy_check_mark: | |
+| 3 | 3Sum Closest (16) | :heavy_check_mark: | |
 | 4 | 4Sum (18) | [ ] | |
 | 5 | Two Sum II - Input Array Is Sorted (167) | [ ] | |
 | 6 | Intersection of Two Arrays (349) | [ ] | |
