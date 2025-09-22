@@ -102,7 +102,7 @@
 |------|----------|--------|-------|
 | 52 | Sliding Window Maximum (239) | [ ] | |
 | 53 | Shortest Subarray with Sum at Least K (862) | ❌ | We need to use deque to track the candidate values and then take the best|
-| 54 | Jump Game VI (1696) | [ ] | |
+| 54 | Jump Game VI (1696) | ✔️ | Can be done using Dp but we can rather maintain the max in a window of k using deque to avoid recomputation |
 
 ## Pattern 11: Sliding Window - Character Frequency Matching
 
