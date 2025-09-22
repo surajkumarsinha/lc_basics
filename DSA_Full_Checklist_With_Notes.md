@@ -116,17 +116,17 @@
 
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
-| 58 | Binary Tree Level Order Traversal (102) | [ ] | |
-| 59 | Binary Tree Zigzag Level Order Traversal (103) | [ ] | |
-| 60 | Binary Tree Right Side View (199) | [ ] | |
-| 61 | Find Largest Value in Each Tree Row (515) | [ ] | |
+| 58 | Binary Tree Level Order Traversal (102) | ✔️ | |
+| 59 | Binary Tree Zigzag Level Order Traversal (103) | ✔️ | |
+| 60 | Binary Tree Right Side View (199) | ✔️ | |
+| 61 | Find Largest Value in Each Tree Row (515) | ✔️ | |
 | 62 | Maximum Level Sum of a Binary Tree (1161) | [ ] | |
 
 ## Pattern 13: Tree DFS - Recursive Preorder Traversal
 
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
-| 63 | Same Tree (100) | [ ] | |
+| 63 | Same Tree (100) | ✔️ | |
 | 64 | Symmetric Tree (101) | [ ] | |
 | 65 | Construct Binary Tree from Preorder and Inorder Traversal (105) | [ ] | |
 | 66 | Flatten Binary Tree to Linked List (114) | [ ] | |
