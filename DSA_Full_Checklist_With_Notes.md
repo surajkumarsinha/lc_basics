@@ -625,7 +625,7 @@
 | 299 | Next Greater Element II (503) | [ ] | |
 | 300 | Daily Temperatures (739) | [ ] | |
 | 301 | Online Stock Span (901) | [ ] | |
-| 302 | Sum of Subarray Minimums (907) | [ ] | |
+| 302 | Sum of Subarray Minimums (907) | ✔️ | Basic next and previous smaller integer problem with stack |
 | 303 | Maximum Width Ramp (962) | [ ] | |
 | 304 | Final Prices With a Special Discount in a Shop (1475) | [ ] | |
 | 305 | Find the Most Competitive Subsequence (1673) | [ ] | |
