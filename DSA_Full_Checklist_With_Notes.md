@@ -262,7 +262,8 @@
 | 136 | Number of Islands II (305) | [ ] | |
 | 137 | Number of Connected Components in an Undirected Graph (323) | [ ] | |
 | 138 | Number of Provinces (547) | [ ] | |
-| 139 | Redundant Connection (684) | [ ] | |
+| 139 | Redundant Connection (684) | ✔️ | |
+| 139 | Redundant Connection II (685) | ✔️ | first find 2 candidates(par -> child) if for a node there is indegree as 2. Invalidate 1 candidate and then try finding cycle. If no cycle is there, return invalidated candidate, if cycle is present then return the other candidate and if there were no candidates but a cycle was still detected, return the cycle edge |
 | 140 | Accounts Merge (721) | [ ] | |
 | 141 | Sentence Similarity II (737) | [ ] | |
 | 142 | Most Stones Removed with Same Row or Column (947) | [ ] | |
@@ -427,7 +428,7 @@
 
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
-| 214 | Find Median from Data Stream (295) | [ ] | |
+| 214 | Find Median from Data Stream (295) | ✔️ | |
 | 215 | Finding MK Average (1825) | [ ] | |
 
 ## Pattern 44: Heap - K-way Merge
@@ -443,12 +444,12 @@
 
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
-| 220 | Meeting Rooms II (253) | [ ] | |
+| 220 | Meeting Rooms II (253) | ✔️ | |
 | 221 | Reorganize String (767) | [ ] | |
 | 222 | Minimum Cost to Hire K Workers (857) | [ ] | |
-| 223 | Furthest Building You Can Reach (1642) | [ ] | |
+| 223 | Furthest Building You Can Reach (1642) | ✔️ | |
 | 224 | Maximum Average Pass Ratio (1792) | [ ] | |
-| 225 | Single-Threaded CPU (1834) | [ ] | |
+| 225 | Single-Threaded CPU (1834) | ✔️ | |
 | 226 | The Number of the Smallest Unoccupied Chair (1942) | [ ] | |
 | 227 | Meeting Rooms III (2402) | [ ] | |
 
@@ -603,7 +604,7 @@
 | S.No | Question | Status | Notes |
 |------|----------|--------|-------|
 | 289 | Median of Two Sorted Arrays (4) | [ ] | |
-| 290 | Find K-th Smallest Pair Distance (719) | [ ] | |
+| 290 | Find K-th Smallest Pair Distance (719) | ✔️ | |
 | 291 | Kth Smallest Element in a Sorted Matrix (378) | [ ] | |
 
 ## Pattern 64: Stack - Valid Parentheses Matching
